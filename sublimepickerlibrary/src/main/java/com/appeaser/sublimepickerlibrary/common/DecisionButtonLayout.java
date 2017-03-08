@@ -112,7 +112,7 @@ public class DecisionButtonLayout extends LinearLayout implements View.OnClickLi
                 bNegative.setVisibility(View.VISIBLE);
 
                 bPositive.setText(res.getString(R.string.ok));
-                bNegative.setText(res.getString(R.string.cancel));
+                bNegative.setText(res.getString(R.string.never));
 
                 SUtils.setViewBackground(bPositive,
                         SUtils.createButtonBg(context, bgColor,
