@@ -123,8 +123,8 @@ public class ButtonHandler implements View.OnClickListener {
                 bPositiveDP.setText(res.getString(R.string.ok));
                 bPositiveTP.setText(res.getString(R.string.ok));
 
-                bNegativeDP.setText(res.getString(R.string.cancel));
-                bNegativeTP.setText(res.getString(R.string.cancel));
+                bNegativeDP.setText(res.getString(R.string.never));
+                bNegativeTP.setText(res.getString(R.string.never));
 
                 SUtils.setViewBackground(bPositiveDP,
                         SUtils.createButtonBg(context, bgColor,
