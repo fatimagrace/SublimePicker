@@ -134,7 +134,7 @@ public class ButtonLayout extends LinearLayout implements View.OnClickListener {
                 bNegative.setVisibility(View.VISIBLE);
 
                 bPositive.setText(res.getString(R.string.ok));
-                bNegative.setText(res.getString(R.string.cancel));
+                bNegative.setText(res.getString(R.string.never));
 
                 SUtils.setViewBackground(bPositive,
                         SUtils.createButtonBg(context, bgColor,
